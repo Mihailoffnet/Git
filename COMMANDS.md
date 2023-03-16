@@ -1,10 +1,10 @@
 ## Настройки GIT:
 
-- ```git – version``` - проверить версию Git
+- **git – version** - проверить версию Git
 Задайте имя для Git через команду
-- git config --global user.name “Emma Paris” (в кавычках указать ваше имя латинскими буквами) 
+- **git config --global user.name “Emma Paris”** (в кавычках указать ваше имя латинскими буквами) 
 Задайте адрес электронной почты для Git через команду
-- git config --global user.email “…@...” (в кавычках указать вашу электронную почту)
+- **git config --global user.email “…@...”** (в кавычках указать вашу электронную почту)
 Задайте правильный формат строк в Windows.
 - git config --global core.autocrlf true
 - git config --global core.safecrlf warn
