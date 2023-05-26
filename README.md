@@ -143,6 +143,7 @@ New Repository - создать новый удаленный репозитор
 - INSERT INTO table_name VALUES('value1', 'value2'); - тоже самое, но без указания атрибутов (возможно только при заполнении всех имеющихся в таблице атрибутов)
 - UPDATE table_name SET name = 'value' WHERE id = xxx; - изменить атрибут name с id xxx в таблице table_name на новое значение value
 - DELETE FROM table_name WHERE id = xxx; - удалить из таблицы table_name все записи у объекта с id = xxxvalue
+### Внимание!!! Если не указать параметр WHERE то будут удалены ВСЕ записи из таблицы!!!
 - SELECT * FROM table_name; - показать все записи из таблицы table_name
 - SELECT * FROM table_name WHERE id = xxx; показать записи c id xxx из таблицы table_name
 
